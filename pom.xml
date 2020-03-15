@@ -118,6 +118,16 @@
                             <arguments>run build</arguments>
                         </configuration>
                     </execution>
+                    <execution>
+                        <id>npm install bootstrap --save</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>install bootstrap --save</arguments>
+                        </configuration>
+                    </execution>
+
                 </executions>
             </plugin>
 
