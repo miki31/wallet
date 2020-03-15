@@ -11,7 +11,7 @@ class App extends Component {
     //test
 
     async componentDidMount() {
-        const response = await fetch('/models');
+        const response = await fetch('/api/models');
         const body = await response.json();
         console.log(JSON.stringify(body));
         // console.log(body);
@@ -28,19 +28,19 @@ class App extends Component {
 
         return (
             <div className="App">
-            {/*<header className="App-header">*/}
-        {/*    <img src={logo} className="App-logo" alt="logo" />*/}
-        {/*    <div>*/}
-    <h2>Hello WORLD _____ in REACT and java_SPRING!!!!!!!!</h2>
-        {groups.map(group =>
-        <div key={group.age}>
-            {group.name}
+                {/*<header className="App-header">*/}
+                {/*    <img src={logo} className="App-logo" alt="logo" />*/}
+                {/*    <div>*/}
+                <h2>Hello WORLD _____ in REACT and java_SPRING!!!!!!!!</h2>
+                {groups.map(group =>
+                    <div key={group.age}>
+                        {group.name}
+                    </div>
+                )}
+                {/*    </div>*/}
+                {/*</header>*/}
             </div>
-        )}
-        {/*    </div>*/}
-        {/*</header>*/}
-    </div>
-    );
+        );
     };
 
 
