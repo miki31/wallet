@@ -31,7 +31,7 @@ class App extends Component {
                 {/*<header className="App-header">*/}
                 {/*    <img src={logo} className="App-logo" alt="logo" />*/}
                 {/*    <div>*/}
-                <h1>Привіт маоічка)))</h1>
+                <h1>Привіт марічка)))</h1>
                 <h2>Hello WORLD _____ in REACT and java_SPRING!!!!!!!!</h2>
                 {groups.map(group =>
                     <div key={group.age}>
