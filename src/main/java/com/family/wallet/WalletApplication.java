@@ -10,6 +10,8 @@ public class WalletApplication {
     //    // https://github.com/oktadeveloper/okta-spring-boot-react-crud-example/pull/12
 
 
+    // інший ресурс з прикладом
+    // https://blogg.kantega.no/webapp-with-create-react-app-and-spring-boot/
     public static void main(String[] args) {
         SpringApplication.run(WalletApplication.class, args);
     }
