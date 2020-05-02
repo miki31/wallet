@@ -149,12 +149,12 @@
                         </configuration>
                     </execution>
                     <execution>
-                        <id>npm install --save react-router-dom</id>
+                        <id>npm install react-router-dom --save</id>
                         <goals>
                             <goal>npm</goal>
                         </goals>
                         <configuration>
-                            <arguments>install --save react-router-dom</arguments>
+                            <arguments>install react-router-dom --save</arguments>
                         </configuration>
                     </execution>
                     <execution>
