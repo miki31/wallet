@@ -1,4 +1,4 @@
-import React, {Component, useEffect, useState} from 'react';
+import React, { useEffect, useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Alert } from 'reactstrap';
@@ -44,21 +44,17 @@ export const App = () => {
                 <div>
                     <h1>Привіт марічка)))</h1>
                     <h2>Hello WORLD _____ in REACT and java_SPRING!!!!!!!!</h2>
-                    {groups.map(group =>
-                        <div key={group.id}>
-                            ID__{group.id} :_  Name : {group.name} ___ age : {group.age}
-                        </div>
-                    )}
 
-                    {/*<div className="alert alert-success" role="alert">*/}
-                    {/*    <h4 className="alert-heading">Well done!</h4>*/}
-                    {/*    <p>Aww yeah, you successfully read this important alert message. This example text is*/}
-                    {/*        going to run a bit longer so that you can see how spacing within an alert works with*/}
-                    {/*        this kind of content.</p>*/}
-                    {/*    <hr/>*/}
-                    {/*    <p className="mb-0">Whenever you need to, be sure to use margin utilities to keep*/}
-                    {/*        things nice and tidy.</p>*/}
-                    {/*</div>*/}
+
+                    <div className="alert alert-success" role="alert">
+                        <h4 className="alert-heading">Well done!</h4>
+                        <p>Aww yeah, you successfully read this important alert message. This example text is
+                            going to run a bit longer so that you can see how spacing within an alert works with
+                            this kind of content.</p>
+                        <hr/>
+                        <p className="mb-0">Whenever you need to, be sure to use margin utilities to keep
+                            things nice and tidy.</p>
+                    </div>
                 </div>
 
                 <Alert color="warning">
