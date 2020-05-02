@@ -131,6 +131,15 @@
                         </configuration>
                     </execution>
                     <execution>
+                        <id>npm i jquery@1.9.1 --save</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>i jquery@1.9.1 --save</arguments>
+                        </configuration>
+                    </execution>
+                    <execution>
                         <id>npm install bootstrap --save</id>
                         <goals>
                             <goal>npm</goal>
