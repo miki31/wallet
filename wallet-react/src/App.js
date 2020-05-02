@@ -14,14 +14,14 @@ class App extends Component {
 
     //test revert
 
-    async componentDidMount() {
-        const response = await fetch('/api/models');
-        const body = await response.json();
-        console.log(JSON.stringify(body));
-        // console.log(body);
-        // console.log("body");
-        this.setState({groups: body, isLoading: false});
-    };
+    // async componentDidMount() {
+    //     const response = await fetch('/api/models');
+    //     const body = await response.json();
+    //     console.log(JSON.stringify(body));
+    //     // console.log(body);
+    //     // console.log("body");
+    //     this.setState({groups: body, isLoading: false});
+    // };
 
     render() {
         const {groups, isLoading} = this.state;
@@ -37,34 +37,34 @@ class App extends Component {
                         <div>
                             <h1>Привіт марічка)))</h1>
                             <h2>Hello WORLD _____ in REACT and java_SPRING!!!!!!!!</h2>
-                            {groups.map(group =>
-                                <div key={group.age}>
-                                    {group.name}
-                                </div>
-                            )}
+                            {/*{groups.map(group =>*/}
+                            {/*    <div key={group.age}>*/}
+                            {/*        {group.name}*/}
+                            {/*    </div>*/}
+                            {/*)}*/}
 
-                            <div className="alert alert-success" role="alert">
-                                <h4 className="alert-heading">Well done!</h4>
-                                <p>Aww yeah, you successfully read this important alert message. This example text is
-                                    going to run a bit longer so that you can see how spacing within an alert works with
-                                    this kind of content.</p>
-                                <hr/>
-                                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep
-                                    things nice and tidy.</p>
-                            </div>
+                            {/*<div className="alert alert-success" role="alert">*/}
+                            {/*    <h4 className="alert-heading">Well done!</h4>*/}
+                            {/*    <p>Aww yeah, you successfully read this important alert message. This example text is*/}
+                            {/*        going to run a bit longer so that you can see how spacing within an alert works with*/}
+                            {/*        this kind of content.</p>*/}
+                            {/*    <hr/>*/}
+                            {/*    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep*/}
+                            {/*        things nice and tidy.</p>*/}
+                            {/*</div>*/}
                         </div>
-                    <Alert color="danger">
-                        <h4 className="alert-heading">Well done!</h4>
-                        <p>
-                            Aww yeah, you successfully read this important alert message. This example text is going
-                            to run a bit longer so that you can see how spacing within an alert works with this kind
-                            of content.
-                        </p>
-                        <hr />
-                        <p className="mb-0">
-                            Whenever you need to, be sure to use margin utilities to keep things nice and tidy.
-                        </p>
-                    </Alert>
+                    {/*<Alert color="danger">*/}
+                    {/*    <h4 className="alert-heading">Well done!</h4>*/}
+                    {/*    <p>*/}
+                    {/*        Aww yeah, you successfully read this important alert message. This example text is going*/}
+                    {/*        to run a bit longer so that you can see how spacing within an alert works with this kind*/}
+                    {/*        of content.*/}
+                    {/*    </p>*/}
+                    {/*    <hr />*/}
+                    {/*    <p className="mb-0">*/}
+                    {/*        Whenever you need to, be sure to use margin utilities to keep things nice and tidy.*/}
+                    {/*    </p>*/}
+                    {/*</Alert>*/}
                 </header>
             </div>
         );
