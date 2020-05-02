@@ -18,13 +18,21 @@ public class MainController {
         List<Model> models = new ArrayList<>();
 
         Model model = new Model();
+        int id = 0;
 
+        model.setId(++id);
         model.setAge(23);
         model.setName("Hello Misha");
         models.add(model);
+
+        model = new Model();
+        model.setId(++id);
         model.setAge(25);
         model.setName("Hello Misha");
         models.add(model);
+
+        model = new Model();
+        model.setId(++id);
         model.setAge(26);
         model.setName("Hello Misha");
         models.add(model);
