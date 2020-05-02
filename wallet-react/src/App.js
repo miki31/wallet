@@ -1,9 +1,7 @@
 import React, {Component, useEffect, useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Alert from "react-bootstrap/Alert";
-
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Alert } from 'reactstrap';
 
 const url = '/api/models';
 
@@ -63,8 +61,8 @@ export const App = () => {
                     {/*</div>*/}
                 </div>
 
-                <Alert variant="warning">
-                    <Alert.Heading>Hey, nice to see you</Alert.Heading>
+                <Alert color="warning">
+                    <h4 className="alert-heading">Hey, nice to see you</h4>
                     <p>
                         Aww yeah, you successfully read this important alert message. This example
                         text is going to run a bit longer so that you can see how spacing within an
