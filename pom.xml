@@ -149,6 +149,15 @@
                         </configuration>
                     </execution>
                     <execution>
+                        <id>npm install eslint-config-react-app@5.2.0 --save</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>install eslint-config-react-app@5.2.0 --save</arguments>
+                        </configuration>
+                    </execution>
+                    <execution>
                         <id>npm install --save reactstrap react react-dom</id>
                         <goals>
                             <goal>npm</goal>
