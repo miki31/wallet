@@ -130,24 +130,24 @@
                             <arguments>run build</arguments>
                         </configuration>
                     </execution>
-<!--                    <execution>-->
-<!--                        <id>npm install bootstrap &#45;&#45;save</id>-->
-<!--                        <goals>-->
-<!--                            <goal>npm</goal>-->
-<!--                        </goals>-->
-<!--                        <configuration>-->
-<!--                            <arguments>install bootstrap &#45;&#45;save</arguments>-->
-<!--                        </configuration>-->
-<!--                    </execution>-->
-<!--                    <execution>-->
-<!--                        <id>npm i jquery-ui &#45;&#45;save</id>-->
-<!--                        <goals>-->
-<!--                            <goal>npm</goal>-->
-<!--                        </goals>-->
-<!--                        <configuration>-->
-<!--                            <arguments>i jquery-ui &#45;&#45;save</arguments>-->
-<!--                        </configuration>-->
-<!--                    </execution>-->
+                    <execution>
+                        <id>npm install bootstrap --save</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>install bootstrap --save</arguments>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>npm install jquery-ui --save</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>install jquery-ui --save</arguments>
+                        </configuration>
+                    </execution>
                     <execution>
                         <id>npm install --save reactstrap react react-dom</id>
                         <goals>
