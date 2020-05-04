@@ -17,16 +17,25 @@ public class MainController {
     public List<Model> hello() {
         List<Model> models = new ArrayList<>();
 
-        Model model = new Model();
+        int id = 0;
+        Model model;
 
-        model.setAge(23);
-        model.setName("Hello Misha");
+        model = new Model();
+        model.setId(++id);
+        model.setAge(28);
+        model.setName("Misha");
         models.add(model);
+
+        model = new Model();
+        model.setId(++id);
         model.setAge(25);
-        model.setName("Hello Misha");
+        model.setName("Marichka");
         models.add(model);
-        model.setAge(26);
-        model.setName("Hello Misha");
+
+        model = new Model();
+        model.setId(++id);
+        model.setAge(44);
+        model.setName("Kolya");
         models.add(model);
 
         return models;
