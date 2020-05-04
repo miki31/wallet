@@ -128,12 +128,30 @@
                         </configuration>
                     </execution>
                     <execution>
-                        <id>npm install --save reactstrap react react-dom</id>
+                        <id>npm install --save react@16.13.0</id>
                         <goals>
                             <goal>npm</goal>
                         </goals>
                         <configuration>
-                            <arguments>install --save reactstrap react react-dom</arguments>
+                            <arguments>install --save react@16.13.0</arguments>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>npm install --save react-dom@16.13.0</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>install --save react-dom@16.13.0</arguments>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>npm install --save reactstrap@8.4.1</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>install --save reactstrap@8.4.1</arguments>
                         </configuration>
                     </execution>
 
