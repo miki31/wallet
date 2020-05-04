@@ -140,12 +140,12 @@
                         </configuration>
                     </execution>
                     <execution>
-                        <id>npm install bootstrap --save</id>
+                        <id>npm install bootstrap@4.4.1 --save</id>
                         <goals>
                             <goal>npm</goal>
                         </goals>
                         <configuration>
-                            <arguments>install bootstrap --save</arguments>
+                            <arguments>install bootstrap@4.4.1 --save</arguments>
                         </configuration>
                     </execution>
                     <execution>
@@ -158,12 +158,30 @@
                         </configuration>
                     </execution>
                     <execution>
-                        <id>npm install --save reactstrap react react-dom</id>
+                        <id>npm install --save react@16.13.0</id>
                         <goals>
                             <goal>npm</goal>
                         </goals>
                         <configuration>
-                            <arguments>install --save reactstrap react react-dom</arguments>
+                            <arguments>install --save react@16.13.0</arguments>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>npm install --save react-dom@16.13.0</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>install --save react-dom@16.13.0</arguments>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>npm install --save reactstrap@8.4.1</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>install --save reactstrap@8.4.1</arguments>
                         </configuration>
                     </execution>
 
