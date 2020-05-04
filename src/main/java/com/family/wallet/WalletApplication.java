@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class WalletApplication {
-    //test// приклад спільної програми Spring and React
+    //test1 //  приклад спільної програми Spring and React
     //    // https://developer.okta.com/blog/2018/07/19/simple-crud-react-and-spring-boot
     //    // https://github.com/oktadeveloper/okta-spring-boot-react-crud-example/pull/12
 
