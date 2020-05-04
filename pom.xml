@@ -167,6 +167,15 @@
                         </configuration>
                     </execution>
                     <execution>
+                        <id>npm install --save react-scripts@3.4.0</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>install --save react-scripts@3.4.0</arguments>
+                        </configuration>
+                    </execution>
+                    <execution>
                         <id>npm install --save react-dom@16.13.0</id>
                         <goals>
                             <goal>npm</goal>
